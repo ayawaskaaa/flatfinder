@@ -2,8 +2,14 @@
 <cronentries>
     <cron>
         <url>/refresh</url>
-        <description>refresh cron job</description>
+        <description>refresh at day</description>
         <schedule>every 10 minutes from 07:00 to 23:59</schedule>
+        <timezone>Europe/Minsk</timezone>
+    </cron>
+    <cron>
+        <url>/refresh</url>
+        <description>refresh at night</description>
+        <schedule>every 1 hours from 00:00 to 06:59</schedule>
         <timezone>Europe/Minsk</timezone>
     </cron>
 </cronentries>
